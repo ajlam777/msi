@@ -1,0 +1,115 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: Tahoma;
+        font-size: 13px;
+        width: 1000px;
+        margin: 0px auto;
+    }
+    
+    #menu_top {
+        height: 40px;
+    }
+    
+    #banner {
+        height: 280px;
+        width: 100%;
+    }
+    
+    #main #left {
+        width: 500px;
+        float: left;
+        min-height: 500px;
+    }
+    
+    #main #right {
+        width: 500px;
+        background-color: beige;
+        float: left;
+        min-height: 550px;
+        /* đặt độ cao tối thiểu khi tạo vì bình thường độ cao của thẻ chỉ chứa vừa đủ phần nội dung */
+    }
+    
+    #footer {
+        background-color: black;
+        width: 1000px;
+        text-align: center;
+        height: 60px;
+        /* căn trái phần main nên còn phần trống nên footer bị tràn lên */
+        clear: left;
+        /* Ngăn không cho tràn lên trái */
+        color: aliceblue;
+        line-height: 60px;
+    }
+    
+    #menu_top #left ul li {
+        list-style: none;
+        /* để bỏ các đánh dấu trong list tạo bởi ul */
+        float: left;
+    }
+    
+    #menu_top #right ul li {
+        float: right;
+    }
+    
+    #menu_top ul li {
+        float: left;
+        list-style: none;
+    }
+    
+    #menu_top ul li a {
+        text-decoration: none;
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px 0 20px;
+        border-right: 1px solid #ccc;
+        float: left
+    }
+    
+    #menu_top ul li a.active {
+        background-color: rgb(0, 255, 136);
+    }
+    
+    #banner img {
+        height: 280px;
+        width: 100%;
+    }
+    
+    #main #left ul li,
+    #main #right ul li {
+        list-style: none;
+    }
+    
+    #main #left #product,
+    #main #right #support {
+        width: 500px;
+        min-height: 300px;
+        background-image: url(https://storage-asset.msi.com/frontend/imgs/product_registration.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-weight: bold;
+        line-height: 300px;
+        text-align: center;
+        font-size: medium;
+    }
+    
+    #main #left #forum,
+    #main #right #video {
+        width: 250px;
+        min-height: 250px;
+        background-color: bisque;
+        display: inline-block;
+    }
+    
+    #main #left #program,
+    #main #right #insider {
+        display: inline-block;
+        float: right;
+        background-color: blueviolet;
+        width: 250px;
+        min-height: 250px;
+    }
