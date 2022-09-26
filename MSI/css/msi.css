@@ -1,0 +1,192 @@
+* {
+    font-family: var(-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 30%;
+    background-color: aqua;
+    text-align: center;
+}
+
+header ul {
+    position: relative;
+    right: 10%;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0px 30px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+    color: #696969;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.banner {
+    height: 600px;
+    margin-bottom: 0px;
+}
+
+.time {
+    height: 20%;
+    padding: 20px 15px;
+    background-color: black;
+    color: white;
+    display: block;
+    flex: 1;
+    text-align: center;
+    flex-direction: column;
+}
+
+.time h2 {
+    font-size: 1.5em;
+    padding: 0px 0px 10px;
+}
+
+.product {
+    height: 20%;
+    width: 100%;
+}
+
+.product ul {
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(34, 34, 34);
+    height: 100%;
+}
+
+.product ul li {
+    display: inline-block;
+    height: 100%;
+    width: 24.8%;
+    object-fit: cover;
+    transition: .3s;
+    flex: 1;
+    cursor: pointer;
+}
+
+.product img {
+    height: 100%;
+    width: 100%;
+}
+
+.apex img {
+    flex: 1;
+    width: 100%;
+}
+
+.extension div {
+    width: 50%;
+}
+
+#big-one {
+    height: 70%;
+    width: 100%;
+    background-color: blueviolet;
+    margin-bottom: 5px;
+}
+
+span {
+    width: 50%;
+    height: 100%;
+}
+
+.left,
+.right {
+    padding-right: 5px;
+}
+
+span img {
+    width: 100%;
+    height: 100%;
+}
+
+.extension {
+    border-bottom: 1px solid gray;
+}
+
+.menu-bot {
+    padding: 0px 30px;
+}
+
+.menu-bot ul li {
+    list-style: none;
+}
+
+.nav #tt {
+    width: 20%;
+    padding: 40px;
+}
+
+.extension img {
+    cursor: pointer;
+}
+
+.nav {
+    padding: 20px 0px 25px;
+}
+
+.nav li {
+    padding: 10px;
+}
+
+footer ul li {
+    list-style: none;
+    flex: 1;
+    padding: 10px 10px 10px 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+footer ul {
+    padding: 0px;
+    color: #696969;
+}
+
+footer div {
+    padding-bottom: 20px;
+}
+
+.contain {
+    padding: 0px 15rem;
+    margin: 0px;
+}
+
+nav.msi-short-cut {
+    padding: 40px 0px;
+}
+
+.information ul li {
+    display: inline-flex;
+}
+
+li#big div {
+    color: #696969;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.banner {
+    background-color: blue;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.pic {
+    opacity: 0;
+    display: block;
+    transform: scale(0);
+    position: absolute;
+    top: 10px;
+}
+
+.pic img {
+    height: 100%;
+    width: 100%;
+}
