@@ -6,19 +6,19 @@
 }
 
 header {
-    height: 30%;
-    background-color: aqua;
+    height: 70px;
     text-align: center;
 }
 
 header ul {
     position: relative;
-    right: 10%;
+    right: 14%;
+    width: 100%;
 }
 
 header ul li {
     display: inline-block;
-    padding: 0px 30px;
+    padding: 0px 20px;
     text-align: center;
     line-height: 80px;
     font-weight: bold;
@@ -27,9 +27,17 @@ header ul li {
     cursor: pointer;
 }
 
+header ul li.hover {
+    opacity: 2;
+    transition: all .1s ease-in;
+}
+
 .banner {
     height: 600px;
-    margin-bottom: 0px;
+}
+
+.banner img {
+    width: 100%;
 }
 
 .time {
@@ -78,6 +86,7 @@ header ul li {
 .apex img {
     flex: 1;
     width: 100%;
+    opacity: 1;
 }
 
 .extension div {
@@ -87,7 +96,6 @@ header ul li {
 #big-one {
     height: 70%;
     width: 100%;
-    background-color: blueviolet;
     margin-bottom: 5px;
 }
 
@@ -107,7 +115,7 @@ span img {
 }
 
 .extension {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(228, 225, 225);
 }
 
 .menu-bot {
@@ -189,4 +197,49 @@ li#big div {
 .pic img {
     height: 100%;
     width: 100%;
+}
+
+.product ul li {
+    filter: brightness(70%);
+    transition: .3s;
+    color: #fff;
+    position: relative;
+}
+
+.product h3,
+.product p {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+
+.product ul li:hover {
+    filter: brightness(100%);
+    cursor: pointer;
+}
+
+.apex {
+    display: block;
+    color: -webkit-link;
+    transition: .3s;
+    filter: brightness(70%);
+}
+
+.apex:hover {
+    filter: brightness(100%);
+    cursor: pointer;
+}
+
+.extension span {
+    opacity: 0.5;
+    transition: all .3s;
+}
+
+.extension span:hover {
+    opacity: 0.7;
+}
+
+.extension span#big-one:hover {
+    opacity: 1;
 }
